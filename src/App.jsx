@@ -1,4 +1,4 @@
-import { RouterProvider, createHashRouter } from "react-router-dom";
+import { RouterProvider, createBrowserRouter } from "react-router-dom";
 
 import Home from "./ui/Home";
 import Menu, { loader as menuLoader } from "./features/menu/Menu";
@@ -11,7 +11,7 @@ import Order, { loader as orderLoader } from "./features/order/Order";
 import AppLayout from "./ui/AppLayout";
 import Error from "./ui/Error";
 
-const router = createHashRouter([
+const router = createBrowserRouter([
     {
         // No path is needed so it will automatically be a "layout route" to the app
         element: <AppLayout />,
