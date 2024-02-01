@@ -5,7 +5,7 @@ function Footer() {
                 &copy; Copyright {new Date().getFullYear()}{" "}
                 <span className="font-semibold">Mahmoud Mostafa</span>
             </span>
-            <span>💥Saturday, January 06 2023💥</span>
+            <span>💥Saturday, January 06 2024💥</span>
         </footer>
     );
 }
